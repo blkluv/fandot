@@ -1,4 +1,5 @@
 import IconGithub from "@/components/IconGithub.tsx"
+import IconDiscord from "@/components/IconDiscord.tsx";
 import {
   useStargazers
 } from "@/utils/data.ts"
@@ -8,7 +9,7 @@ export default function StarGazers() {
 
   const add = (e: MouseEvent) => {
     e.preventDefault();
-    const url = `https://arvrtise.com`;
+    const url = `https://discord.gg/nfAmqTGNAU`;
     window.open(url, '_blank')
   };
 
@@ -18,13 +19,14 @@ export default function StarGazers() {
 
   return (
     <div>
-      <button
-        onClick={add}
-        class="flex items-center gap-2 items-center border-2 border-gray-800 rounded-full px-5 py-1 font-semibold text-gray-800 hover:bg-gray-800 hover:text-white transition-colors duration-300"
-      >
-        <IconGithub />
-        {data?.watchers ?? "Arvrtise"}
-      </button>
+       <button
+  onClick={add}
+  class="flex items-center gap-2 items-center border-2 border-E6007E rounded-full px-5 py-1 font-semibold text-white hover:bg-E6007E hover:text-white transition-colors duration-300"
+>
+  <IconDiscord />
+  {data?.watchers ?? "Discord"}
+</button>
+
 
     </div>
   );
