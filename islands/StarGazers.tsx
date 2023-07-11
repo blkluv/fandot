@@ -1,5 +1,3 @@
-import IconGithub from "@/components/IconGithub.tsx";
-import IconDiscord from "@/components/IconDiscord.tsx";
 import { useStargazers } from "@/utils/data.ts";
 
 export default function StarGazers() {
@@ -21,8 +19,7 @@ export default function StarGazers() {
         onClick={add}
         className="flex items-center gap-2 items-center border-2 border-E6007E rounded-full px-5 py-1 font-semibold text-white hover:bg-E6007E hover:text-white transition-colors duration-300"
       >
-        <IconDiscord />
-        {data?.watchers ?? "Discord"}
+        {data?.watchers ?? "Arvrtise"}
       </button>
     </div>
   );
