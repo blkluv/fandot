@@ -4,14 +4,7 @@ export function Footer() {
   return (
     <footer class="w-11/12 max-w-5xl mx-auto mt-24 sm:!mt-28 mb-8 flex items-center justify-between">
       <span class="flex items-center gap-4">
-        <a class="flex items-center gap-2 text-gray-700" href="https://fresh.deno.dev">
-          <a href="https://fresh.deno.dev">
-            <img width="197" height="37" src="https://fresh.deno.dev/fresh-badge.svg" />
-          </a>
-        </a>
-        <a class="hover:underline flex gap-2 items-center" href="https://arvrtise.com">
-          Arvrtise
-        </a>
+        <iframe src="https://arvrtise.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:black;" frameborder="0" scrolling="no"></iframe>
       </span>
       <a class="text-sm text-gray-400 hidden items-center gap-2 sm:!flex" href="https://ads.arvrtise.com">
         Powered by
