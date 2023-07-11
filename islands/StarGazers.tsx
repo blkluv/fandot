@@ -1,4 +1,4 @@
-import IconGithub from "@/components/IconGithub.tsx"
+import IconGithub from "@/components/IconGithub.tsx";
 import IconDiscord from "@/components/IconDiscord.tsx";
 import {
   useStargazers
