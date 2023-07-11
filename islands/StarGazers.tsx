@@ -19,7 +19,7 @@ export default function StarGazers() {
         onClick={add}
         className="flex items-center gap-2 items-center border-2 border-E6007E rounded-full px-5 py-1 font-semibold text-white hover:bg-E6007E hover:text-white transition-colors duration-300"
       >
-        {data?.watchers ?? "Arvrtise"}
+        {data?.watchers ?? "Discord"}
       </button>
     </div>
   );
