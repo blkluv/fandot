@@ -20,15 +20,15 @@ export function Footer() {
         </a>
         <a
           class="hover:underline flex gap-2 items-center"
-          href="https://github.com/vikiival/shop"
+          href="https://arvrtise.com"
         >
           <GitHub class="h-5 w-5 text-gray-500" />
-          Source
+          Arvrtise
         </a>
       </span>
       <a
         class="text-sm text-gray-400 hidden items-center gap-2 sm:!flex"
-        href="https://kodadot.xyz"
+        href="https://ads.arvrtise.com"
       >
         Powered by
         <svg
@@ -43,7 +43,7 @@ export function Footer() {
           <image href="/logo.svg" height="256" width="256" />
         </svg>
         <span class="text-gray-600">
-          KodaDot
+          Arvrtise Ads
         </span>
       </a>
     </footer>
