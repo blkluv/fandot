@@ -4,11 +4,11 @@ export function Footer() {
   return (
     <footer class="w-11/12 max-w-5xl mx-auto mt-24 sm:!mt-28 mb-8 flex flex-col items-center justify-between">
       <div class="flex items-center gap-4 mb-4">
-        <a href="https://twitter.com/example">Twitter</a>
-        <a href="https://discord.gg/example">Discord</a>
-        <a href="https://linkedin.com/company/example">LinkedIn</a>
-        <a href="https://tiktok.com/@example">TikTok</a>
-        <a href="https://instagram.com/example">Instagram</a>
+        <a href="https://twitter.com/arvrtise">Twitter</a>
+        <a href="https://discord.gg/nfAmqTGNAU">Discord</a>
+        <a href="https://www.linkedin.com/groups/9068432/">LinkedIn Group</a>
+        <a href="https://tiktok.com/@arvrtise">TikTok</a>
+        <a href="https://instagram.com/arvrtise">Instagram</a>
       </div>
       <div class="flex items-center gap-4">
         <iframe src="https://arvrtise.substack.com/embed" width="380" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
