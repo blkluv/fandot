@@ -1,6 +1,10 @@
 import GitHub from "@/components/IconGithub.tsx";
 // Import or define the necessary icon components
-import { TwitterIcon, DiscordIcon, LinkedInIcon, TikTokIcon, InstagramIcon } from "@/components/IconComponents.tsx";
+import TwitterIcon from "@/components/TwitterIcon.tsx";
+import DiscordIcon from "@/components/DiscordIcon.tsx";
+import LinkedInIcon from "@/components/LinkedInIcon.tsx";
+import TikTokIcon from "@/components/TikTokIcon.tsx";
+import InstagramIcon from "@/components/InstagramIcon.tsx";
 
 export function Footer() {
   return (
